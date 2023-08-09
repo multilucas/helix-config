@@ -1,11 +1,25 @@
 theme = "tokyonight"
+
 [editor]
 line-number = "relative"
+cursorline = true
+auto-save = true
+color-modes = true
+true-color = true
+auto-format = true
+auto-pairs = false
+
+[editor.lsp]
+display-messages = true
+
+[editor.file-picker]
+hidden = false
+
 [editor.soft-wrap]
 enable = true
+
 [editor.cursor-shape]
 insert = "bar"
-
 # [editor.whitespace]
 # render = "all"
 # or control each character
@@ -26,6 +40,3 @@ skip-levels = 4
 render = true
 character = "╎" # Some characters that work well: "▏", "┆", "┊", "⸽"
 
-# [editor]
-# true-color = true
- 
